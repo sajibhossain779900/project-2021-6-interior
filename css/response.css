@@ -1,0 +1,520 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  /* ----------------------------
+    --------------------------
+    nav section
+    -------------------------
+    -------------------------- */
+  .nav-icon-b{
+    color: #198754;
+  }
+
+   /* ----------------------------
+    --------------------------
+  category section
+    -------------------------
+    -------------------------- */
+.cat-box {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* ----------------------------
+    --------------------------
+    3th section
+    -------------------------
+    -------------------------- */
+
+.threeth{
+  flex-direction: column;
+    text-align: center;
+}
+
+.threeth h2{
+      font-size: 20px;
+    font-weight: 600;
+    color: #001d38;
+    width: 88%;
+}
+.threeth p{
+  font-size: 10px;
+}
+.threeth h5{
+  font-size: 14px;
+}
+.threeth h6{
+  font-size: 12px;
+}
+.threeth
+   /* ----------------------------
+    --------------------------
+              5th section
+    -------------------------
+    -------------------------- */
+
+.fiveth img{
+  width: 100%;
+  margin: 10px 0;
+}
+
+   /* ----------------------------
+    --------------------------
+            footer section
+    -------------------------
+    -------------------------- */
+  
+.footer .v-last input{
+  width: 286px;
+}
+.footer .mail-bu button {
+        
+        margin: -44px 0px 10px 46px;
+        width: 126px;
+}
+
+
+
+
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+   
+/* ----------------------------
+    --------------------------
+    nav section
+    -------------------------
+    -------------------------- */
+  .nav-icon-b{
+    color: blue;
+  }
+ /* ----------------------------
+    --------------------------
+   banner section
+    -------------------------
+    -------------------------- */
+  .banner-text {
+    
+    padding: 52px 0;
+    text-align: center;
+  }
+
+
+  .banner-text h3 {
+    font-size: 42px;
+}
+
+ /* ----------------------------
+    --------------------------
+  category section
+    -------------------------
+    -------------------------- */
+.cat-box {
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ----------------------------
+    --------------------------
+            1st section
+    -------------------------
+    -------------------------- */
+ .oneth {
+    text-align: center;
+  }
+
+    /* ----------------------------
+    --------------------------
+            2nd section
+    -------------------------
+    -------------------------- */
+.twond , .twond2{
+    
+    text-align: center;
+}
+.m-r-2{
+  flex-direction: column-reverse;
+}
+.twond h3, .twond2 h3 {
+   
+   width:  96%; 
+}
+    /* ----------------------------
+    --------------------------
+            3th section
+    -------------------------
+    -------------------------- */
+
+   .threeth img {
+    max-width: 97% ;
+    height: auto;
+}
+
+.threeth h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #001d38;
+    width: 91%;
+    text-align: center;
+}
+.threeth  p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 58%;
+    margin-left: 83px;
+}
+
+.threeth .sp {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    margin-left: 245px;
+}
+.threeth button{
+margin: 21px 110px;
+}
+    /* ----------------------------
+    --------------------------
+              4th section
+    -------------------------
+    -------------------------- */
+.fourth p {
+    
+    line-height: 32px;
+    margin: 34px 52px;
+    width: 77%;
+}
+
+
+    /* ----------------------------
+    --------------------------
+              5th section
+    -------------------------
+    -------------------------- */
+
+.fiveth img{
+  margin: 10px 0;
+}
+
+
+    /* ----------------------------
+    --------------------------
+            footer section
+    -------------------------
+    -------------------------- */
+        .footer{
+      text-align: center;
+    }
+
+.footer .n-r1 h2 {
+    font-size: 25px;
+  }
+
+  .footer .n-l1 h2 {
+    
+    margin: 23px 76px 11px 0px;
+}
+
+.footer .n-l1 h4 {
+    
+    margin: 0px 107px 0px 0;
+}
+.footer .mail-bu button {
+   
+    
+}
+
+.footer .v-last p {
+    
+    margin-top: 23px;
+}
+
+ .footer .an p {
+    
+   
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+ /* ----------------------------
+    --------------------------
+    nav section
+    -------------------------
+    -------------------------- */
+  .nav-icon-b{
+    color: white;
+  }
+ /* ----------------------------
+    --------------------------
+   banner section
+    -------------------------
+    -------------------------- */
+  .banner-text {
+    
+    padding: 52px 0;
+    text-align: center;
+  }
+
+
+  .banner-text h3 {
+    font-size: 42px;
+}
+
+ /* ----------------------------
+    --------------------------
+  category section
+    -------------------------
+    -------------------------- */
+.cat-box {
+        flex-direction: column;
+    text-align: center;
+}
+
+/* ----------------------------
+    --------------------------
+            1st section
+    -------------------------
+    -------------------------- */
+
+    .oneth {
+    text-align: center;
+  }
+
+
+    /* ----------------------------
+    --------------------------
+            2nd section
+    -------------------------
+    -------------------------- */
+.twond , .twond2{
+    
+    text-align: center;
+}
+.m-r-2{
+  flex-direction: column-reverse;
+}
+.twond h3, .twond2 h3 {
+   
+   width:  96%; 
+}
+    /* ----------------------------
+    --------------------------
+            3th section
+    -------------------------
+    -------------------------- */
+   .threeth img {
+    max-width: 97% ;
+    height: auto;
+}
+
+
+.threeth h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #001d38;
+    width: 91%;
+    text-align: center;
+}
+
+.threeth  p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 58%;
+    margin-left: 83px;
+}
+.threeth .sp {
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    margin-left: 245px;
+}
+.threeth button{
+margin: 21px 110px;
+}
+    /* ----------------------------
+    --------------------------
+              4th section
+    -------------------------
+    -------------------------- */
+}
+.fourth p {
+    
+    line-height: 22px;
+    margin: 34px 52px;
+   
+}
+
+    /* ----------------------------
+    --------------------------
+              5th section
+    -------------------------
+    -------------------------- */
+
+.fiveth img{
+  margin: 10px 0;
+}
+
+
+    /* ----------------------------
+    --------------------------
+            footer section
+    -------------------------
+    -------------------------- */
+
+    .footer{
+      text-align: center;
+    }
+
+.footer .n-r1 h2 {
+    font-size: 25px;
+  }
+
+  .footer .n-l1 h2 {
+    
+    margin: 23px 76px 11px 0px;
+}
+
+.footer .n-l1 h4 {
+    
+    margin: 0px 107px 0px 0;
+}
+.footer .mail-bu button {
+    width: 160px 
+    
+}
+
+.footer .v-last p {
+    
+    margin-top: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .footer .an  {
+    
+    margin-top: -84px;
+}
+
+
+}
+
+
+
+
+
